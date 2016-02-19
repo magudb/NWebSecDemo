@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "src\Website\Website.csproj", "{7FD6E118-4ECB-4DB5-BB9D-21D5D50100AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{A0C58C01-C866-4A0D-ABAD-4BBAB8757434}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Website.TDSM", "src\Website.TDSM\Website.TDSM.scproj", "{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FD6E118-4ECB-4DB5-BB9D-21D5D50100AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD6E118-4ECB-4DB5-BB9D-21D5D50100AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD6E118-4ECB-4DB5-BB9D-21D5D50100AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD6E118-4ECB-4DB5-BB9D-21D5D50100AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C2DB39-2E3A-4039-9F6A-695517CD4DCB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

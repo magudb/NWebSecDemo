@@ -21,7 +21,11 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
-
+[Aa]reas/
+[Aa]pp_[Dd]ata/
+[Aa]pp_[Bb]rowsers/
+[Aa]pp_[Cc]onfig/
+![Aa]pp_[Cc]onfig/[Ii]nclude
 # Visual Studio 2015 cache/options directory
 .vs/
 
@@ -210,3 +214,22 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+src/Website/layouts/
+src/Website/Content/dist/
+src/Website/default.htm.sitedown
+src/Website/default.js
+src/Website/layouts/*
+src/Website/Scripts/dist/
+src/Website/sitecore modules/*
+src/Website/sitecore/*
+src/Website/temp/*
+src/Website/_DEV/*
+src/Website/webedit.css
+src/Website/xsl/*
+src/Website/upload/readme.txt
+src/Website/sitecore_files/Web.config
+src/Website/default.css
+src/Website/Default.aspx
+src/Website/Global.asax
+src/Website/Views/Shared/ExperienceExplorerView.cshtml
