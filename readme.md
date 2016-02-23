@@ -1,4 +1,4 @@
-#For [Sitecore and Security](#) blog post
+#For [Sitecore and Security](http://udbjorg.net/2016/02/23/sitecore-and-content-security-policy/) blog post
 
 ##Requirements
 * Sitecore 8.1 rev. 151207
